@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script type="text/javascript" src="../scripts/nem_main.js"></script>
+    <script type="text/javascript" src="../scripts/novo.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div class ="contorno">
+            <div class="calculator">
+                <div class="input">
+                    <p class="entrada" id="_entrada"></p>
+                </div>
+        
+                <div class="buttons">
+                    <button class ="functional_button" type="button" onclick="limpa()">C</button>
+                    <button class ="functional_button" type="button" onclick="del()"><</button>
+                    <button class ="operation_button" type="button" onclick="adiciona_opera('^')">x^y</button>
+                    <!-- <button class ="operation_button" type="button">sqrt</button>   -->
+                    
+                    <button class ="number_button" type="button" onclick="adiciona_num('7')">7</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('8')">8</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('9')">9</button>
+                    
+                    <button class ="number_button" type="button" onclick="adiciona_num('4')">4</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('5')">5</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('6')">6</button>
+                    
+                    <button class ="number_button" type="button" onclick="adiciona_num('1')">1</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('2')">2</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('3')">3</button>
+                    
+                    <button class ="number_button" type="button" onclick="adiciona_num('.')">•</button>
+                    <button class ="number_button" type="button" onclick="adiciona_num('0')">0</button>
+                    
+                    <button class ="operation_button" type="button" onclick="adiciona_opera('*')">x</button>
+                    <button class ="operation_button" type="button" onclick="adiciona_opera('/')">/</button>
+                    <button class ="operation_button" type="button" onclick="adiciona_opera('+')">+</button>            
+                    <button class ="operation_button" type="button" onclick="adiciona_opera('-')">-</button>
+                    
+                    <button class ="functional_button" type="button" onclick="refresh()">=</button>
+                    <audio id="audio_resultado" src="../Assets/sounds/plililim.mp3"></audio>
+                    <audio id="audio_opera" src="../Assets/sounds/pa.mp3"></audio>
+                    <audio id="audio_num" src="../Assets/sounds/tec.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

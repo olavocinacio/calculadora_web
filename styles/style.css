@@ -1,0 +1,95 @@
+body{
+    background: url(../Assets/images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.page{
+    width: 100vw;
+    height: 100vw;
+    align-items: center;
+}
+
+.calculator{
+    padding-top: 1vh;
+    margin-left: 2.5vw;
+    margin-top: 10vh;
+    /* margin-bottom: 0; */
+}
+
+.contorno{
+    background-color: rgb(198, 201, 14);
+    margin-left: 65vh;
+    /* margin-bottom: 0; */
+    border-radius: 20px;
+    margin-top: 10vh;
+    width: 30vw;
+    height: 85vh;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap:wrap;
+    width: 25vw;
+    /* margin-bottom: 0; */
+
+    height: 40vh;
+    border-radius: 200px;
+    align-items: center;
+}
+
+.operation_button{
+    background-color: rgb(214, 131, 23);
+    color: rgb(87, 26, 26);
+    width: 10vw;
+    height: 7vh;
+    /* margin-bottom: 0; */
+    border-radius: 20px;
+
+    font-size: 3vw;
+    flex: 1 0 30%;
+    margin: 5px;
+}
+
+.number_button{
+    background-color: rgb(18, 177, 9);
+    color: rgb(238, 238, 241);
+    width: 10vw;
+    height: 7vh;
+    /* margin-bottom: 0; */
+    border-radius: 20px;
+
+    font-size: 3vw;
+    flex: 1 0 30%;
+    margin: 5px;
+}
+
+.functional_button{
+    background-color: rgb(102, 110, 224);
+    color: rgb(238, 238, 241);
+    width: 10vw;
+    height: 7vh;
+    /* margin-bottom: 0; */
+    border-radius: 20px;
+    font-size: 3vw;
+    flex: 1 0 30%;
+    margin: 5px;
+    font-variant-ligatures: common-ligatures;
+}
+
+.input{
+    height: 20vh;
+    width: 25vw;
+    align-items: center;
+    /* margin-bottom: 0; */
+}
+
+.entrada{
+    height: 20vh;
+    width: 25vw;
+    /* margin-bottom: 0; */
+    font-size: 8vh;
+    margin-top: 2.5vw;
+    color: rgb(199, 216, 41);
+    background-color: rgb(204, 77, 141);
+    border-radius: 20px;
+}
